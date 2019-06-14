@@ -30,12 +30,15 @@ public class Test {
                     menu.showFrequency(scanner.nextInt());
                     break;
                 case 6:
-                    menu.printMostFrequentNumbers();
+                    menu.showRatio();
                     break;
                 case 7:
-                    menu.addNewResult();
+                    menu.printMostFrequentNumbers();
                     break;
                 case 8:
+                    menu.addNewResult();
+                    break;
+                case 9:
                     System.out.println("------------------------ GOOD BYE !!! ------------------------");
                     System.exit(0);
             }

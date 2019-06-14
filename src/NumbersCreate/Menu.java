@@ -20,9 +20,10 @@ public class Menu {
                 "3. Show all results\n" +
                 "4. Frequency of all numbers\n" +
                 "5. Frequency of a number\n" +
-                "6. Show the most frequent number(s)\n" +
-                "7. Add a new result\n" +
-                "8. Exit");
+                "6. Show results with ratio\n" +
+                "7. Show the most frequent number(s)\n" +
+                "8. Add a new result\n" +
+                "9. Exit");
     }
 
     // convert an array to a set
@@ -87,12 +88,17 @@ public class Menu {
         System.out.println("The number " + num + " has appeared " + statistic.countRepeatedNumber(num) + " times");
     }
 
-    // Option 6: print the most frequent number(s)
+    // Option 6: print ratio of all numbers
+    public void showRatio() {
+        statistic.showRatio();
+    }
+
+    // Option 7: print the most frequent number(s)
     public void printMostFrequentNumbers() {
         statistic.showMostFrequentNumbers();
     }
 
-    // Option 7: Add a new week result
+    // Option 8: Add a new week result
     public void addNewResult() {
         Scanner sc = new Scanner(System.in);
         Integer[] numbers = {0, 0, 0, 0, 0};
