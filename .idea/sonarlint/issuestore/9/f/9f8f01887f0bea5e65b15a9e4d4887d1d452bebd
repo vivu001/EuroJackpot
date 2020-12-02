@@ -1,0 +1,17 @@
+
+
+java:S1319"uThe type of the "numbers" object should be an interface such as "SortedSet" rather than the implementation "TreeSet".(ñ’ıüÿÿÿÿ
+•
+java:S1319"zThe type of the "superNumbers" object should be an interface such as "SortedSet" rather than the implementation "TreeSet".(ñ’ıüÿÿÿÿ
+‰
+java:S1319"sThe return type of this method should be an interface such as "SortedSet" rather than the implementation "TreeSet".(Î„¸µ
+
+java:S1319""uThe type of the "numbers" object should be an interface such as "SortedSet" rather than the implementation "TreeSet".(Æ²–Úûÿÿÿÿ
+ˆ
+java:S1319&"sThe return type of this method should be an interface such as "SortedSet" rather than the implementation "TreeSet".(Éä–2
+
+java:S1319*"zThe type of the "superNumbers" object should be an interface such as "SortedSet" rather than the implementation "TreeSet".(œèÆı
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(‰£Ã›ÿÿÿÿÿ
+S	java:S1068"9Replace this use of System.out or System.err by a logger.(Å—âÕøÿÿÿÿ
+M	java:S106:"9Replace this use of System.out or System.err by a logger.(ğš­H
+S	java:S106<"9Replace this use of System.out or System.err by a logger.(ÌÃ¼ûÿÿÿÿ
